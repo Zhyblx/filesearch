@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import lucnen.Createindex;
 import lucnen.SearchBuilder;
 
 public class ApplicationService implements Runnable {
@@ -16,7 +17,7 @@ public class ApplicationService implements Runnable {
             String query = scanner.nextLine();//输入的关键词
 
             List<String> list = new ArrayList<String>();
-            list.addAll(SearchBuilder.doSearch(SearchBuilder.INDEX_DIR_PATH, query));//搜索结果存储list
+            list.addAll(SearchBuilder.doSearch(Createindex.INDEX_DIR_PATH, query));//搜索结果存储list
 
             Iterator<String> iterator = list.iterator();
             while (iterator.hasNext()) {

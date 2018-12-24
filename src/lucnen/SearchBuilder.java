@@ -21,14 +21,12 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * lucene搜索索引
+ * lucene搜索实现
  *
  * @author he
  * @date 2018/9/20
  */
 public class SearchBuilder {
-
-    public static final String INDEX_DIR_PATH = "./SearchTest/index";
 
     public static List<String> doSearch(String indexDir, String queryStr) throws IOException, ParseException, InvalidTokenOffsetsException {
 
@@ -66,7 +64,7 @@ public class SearchBuilder {
 
         String q = "java"; //查询这个字符串
         try {
-            System.out.println(doSearch(INDEX_DIR_PATH, q));
+            System.out.println(doSearch(Createindex.INDEX_DIR_PATH, q));
         } catch (Exception e) {
             e.printStackTrace();
         }

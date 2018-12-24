@@ -28,14 +28,16 @@ public class Createindex {
 
     private volatile static Createindex instance;
 
-    private final static String INDEX_DIR_PATH = "./SearchTest/index";//索引目录地址
+    public final static String INDEX_DIR_PATH = "./SearchTest/index";//索引目录地址
 
     private static class SingletonHolder {
         private final static Createindex instance = new Createindex();
+
     }
 
     public static Createindex getInstance() {
         return SingletonHolder.instance;
+
     }
 
     public boolean createIndex(String indexDir) throws IOException {

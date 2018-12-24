@@ -10,7 +10,7 @@ import java.io.File;
 import java.util.List;
 import java.util.ArrayList;
 
-public class ScanDirectory{
+public class ScanDirectory {
     //获取层级的方法
     public static String getLevel(int level) {
         //A mutable sequence of characters.
@@ -23,6 +23,7 @@ public class ScanDirectory{
 
     private static List<String> list = new ArrayList<String>();
 
+    @Deprecated
     public static List<String> getScanDirectory(File dir, int level) {
         File[] files = dir.listFiles();
         for (int i = 0; i < files.length; i++) {
