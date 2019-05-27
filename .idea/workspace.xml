@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f46fc6f4-61e4-4c3e-a93a-194229696d4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/folder/DeleteDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/ApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/ApplicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/folder/ScanDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/folder/ScanDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchTest/index/_0.cfe" beforeDir="false" afterPath="$PROJECT_DIR$/SearchTest/index/_0.cfe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchTest/index/_0.cfs" beforeDir="false" afterPath="$PROJECT_DIR$/SearchTest/index/_0.cfs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchTest/index/_0.si" beforeDir="false" afterPath="$PROJECT_DIR$/SearchTest/index/_0.si" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchTest/index/segments_1" beforeDir="false" afterPath="$PROJECT_DIR$/SearchTest/index/segments_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lucnen/application/ApplicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucnen/application/ApplicationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lucnen/converter/DataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucnen/converter/DataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lucnen/folder/ScanDirectory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucnen/folder/ScanDirectory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lucnen/folder/ScanFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucnen/folder/ScanFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lucnen/lucnen/Createindex$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucnen/lucnen/Createindex$SingletonHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lucnen/lucnen/Createindex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucnen/lucnen/Createindex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lucnen/lucnen/SearchBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucnen/lucnen/SearchBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lucnen/test/DataServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucnen/test/DataServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lucnen/test/ScanDirectoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucnen/test/ScanDirectoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lucnen/test/ScanFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucnen/test/ScanFileTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lucnen/Createindex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lucnen/Createindex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lucnen/SearchBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lucnen/SearchBuilder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,25 +35,40 @@
       <FILTER>application.*</FILTER>
     </SUITE>
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/folder/DeleteDirectory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="2501">
-                <caret line="186" column="9" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="290">
+                <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/converter/DataService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lucnen/Createindex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="430">
+              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,56 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/ApplicationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lucnen/SearchBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lucnen/Createindex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/folder/ScanDirectory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="26" column="67" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/folder/ScanFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="47" column="46" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="46" />
+            <state relative-caret-position="480">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,17 +105,18 @@
         <option value="$PROJECT_DIR$/src/converter/DataService.java" />
         <option value="$PROJECT_DIR$/src/test/DataServiceTest.java" />
         <option value="$PROJECT_DIR$/src/folder/ScanDirectory.java" />
-        <option value="$PROJECT_DIR$/src/lucnen/Createindex.java" />
         <option value="$PROJECT_DIR$/src/lucnen/SearchBuilder.java" />
         <option value="$PROJECT_DIR$/src/application/ApplicationService.java" />
+        <option value="$PROJECT_DIR$/src/folder/DeleteDirectory.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/lucnen/Createindex.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="y" value="113" />
+    <option name="width" value="1280" />
+    <option name="height" value="706" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,6 +131,11 @@
             <path>
               <item name="filesearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="filesearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="filesearch" type="b2602c69:ProjectViewProjectNode" />
@@ -179,6 +166,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lucnen" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="filesearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filesearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filesearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -187,11 +184,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545647942993" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550819843435" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -233,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.DataServiceTest" />
+    <configuration name="DeleteDirectory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="folder.DeleteDirectory" />
       <module name="lucnen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="folder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,10 +273,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ApplicationService" />
-        <item itemvalue="Application.ScanDirectoryTest" />
         <item itemvalue="Application.Createindex" />
+        <item itemvalue="Application.DeleteDirectory" />
+        <item itemvalue="Application.ScanDirectoryTest" />
         <item itemvalue="Application.SearchBuilder" />
-        <item itemvalue="Application.DataServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -296,11 +294,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="113" width="1280" height="706" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20100144" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.273021" />
+      <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.21530758" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="DB Browser" order="4" />
@@ -309,17 +307,17 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4212766" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.95114005" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6970684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.9574468" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" order="10" />
+      <window_info anchor="bottom" id="Statistic" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -352,16 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/folder/ScanFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="47" column="46" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ScanDirectoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -372,40 +360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/folder/ScanDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="26" column="67" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lucnen/Createindex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lucnen/SearchBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/ApplicationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="649">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -419,13 +377,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/folder/ScanDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/ApplicationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/folder/ScanFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/folder/DeleteDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="2501">
-            <caret line="186" column="9" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="290">
+            <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lucnen/Createindex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

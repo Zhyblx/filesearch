@@ -101,6 +101,31 @@
 
 返回结果：文件路径List<br>
 
+##### 4.删除目录
+接口：folder.DeleteDirectory <br>
+方法：deleteDir() <br>
+类型：boolean <br>
+定义：static <br>
+描述：删除目录及文件 <br>
+参数： <br>
+<table>
+<tr>
+<td>名称</td>
+<td>类型</td>
+<td>必填</td>
+<td>描述</td>
+
+</tr>
+
+<tr>
+<td>file</td>
+<td>File</td>
+<td>是</td>
+<td>文件对象</td>
+
+</tr>
+
+</table>
 
 
 #### 二、搜索服务接口：

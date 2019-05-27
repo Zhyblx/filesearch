@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.nio.file.Paths;
 
 import converter.DataService;
+import folder.DeleteDirectory;
 import folder.ScanFile;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
@@ -43,7 +44,7 @@ public class Createindex {
     public boolean createIndex(String indexDir) throws IOException {
         //加点测试的静态数据
 
-        File file = new File("/Users/zhangyibin/Downloads/test/");
+        File file = new File("/Users/zhangyibin/Documents/");//加入搜索的目录地址
         String[] strTitle = DataService.getArray(ScanFile.getScanFileName(file));
         String[] strTcontent = DataService.getArray(ScanFile.getScanFilePath(file));
 //
@@ -79,17 +80,28 @@ public class Createindex {
 
     public static void main(String[] args) {
         try {
-            boolean r = Createindex.getInstance().createIndex(INDEX_DIR_PATH);
-            if (r) {
-                System.out.println("索引创建成功!");
+            boolean ifDel = DeleteDirectory
+                    .deleteDir(new File("/Users/zhangyibin/Documents/Github/IdeaProjects/filesearch/SearchTest/index/")) ? true : false;
+
+            if (ifDel == true) {
+                System.out.println("原索引已删除!");
+                boolean r = Createindex.getInstance().createIndex(INDEX_DIR_PATH);
+                if (r) {
+                    System.out.println("索引创建成功!");
+                } else {
+                    System.out.println("索引创建失败!");
+                }
+
             } else {
-                System.out.println("索引创建失败!");
+                System.out.println("原索引未删除，程序退出!");
+
             }
+
+
         } catch (IOException e) {
             e.printStackTrace();
+
         }
-
     }
-
 
 }
